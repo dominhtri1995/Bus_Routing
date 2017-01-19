@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bus Routing</string>
+    <string name="title_activity_choose_bus">Bus Routing</string>
+    <string name="title_create_journey">Tạo chuyến</string>
+    <string name="title_create_bus">Tạo tuyến </string>
+    <string name="title_drop_pin">Vị trí trạm dừng cho tuyến</string>
+    <string name="hint_number_of_bus">Số tuyến đi: </string>
+    <string name="hint_warning">Cảnh báo khi đến trạm cuối tuyến</string>
+    <string name="continue_action">Tiếp tục</string>
+    <string name="ex_num_of_bus">ví dụ: 2</string>
+    <string name="name_of_bus">Tên tuyến: </string>
+    <string name="name_of_destination">Nơi đến: </string>
+    <string name="hint_name_bus">ví dụ: 65</string>
+    <string name="hint_name_des">ví dụ: Bến Thành</string>
+    <string name="button_add_pin">Đây là trạm dừng</string>
+    <string name="ask_for_drag">Thêm trạm dừng!</string>
+    <string name="drag_two_more">Thêm hai trạm nữa!</string>
+    <string name="drag_one_more">Thêm một trạm nữa!</string>
+    <string name="drag_more">Thêm trạm khác nhé!</string>
+    <string name="yes_text">CÓ</string>
+    <string name="no_text">KHÔNG</string>
+    <string name="share_bus">Chia sẻ chuyến đi</string>
+    <string name="title_result">Kết Quả</string>
+    <string name="quote_helper_last_routing">Bạn có muốn sử dụng vị trí trạm dừng đã được chỉ định bởi những người trước đây?</string>
+    <string name="set">Set</string>
+    <string name="set_number_of_bus">Có bao nhiêu chuyến xe buýt?</string>
+    <string name="complete">HOÀN TẤT</string>
+
+    <string-array name="number_of_bus_choice">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+</resources>

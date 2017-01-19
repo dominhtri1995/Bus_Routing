@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container_location"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="64dp"
+            android:layout_height="34dp"
+            android:background="@drawable/line" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/add_number_of_bus"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/warning">
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_number_of_bus" />
+
+        <TextView
+            android:id="@+id/numBus"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingLeft="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/warning"
+        android:layout_above="@id/title_action"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkWarning"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/checkWarning"
+            android:text="@string/hint_warning"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/continue_action"
+        android:id="@id/title_action"
+        android:textStyle="bold"
+        android:background="@drawable/button_background_submit"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/small_pin"
+        android:layout_width="34dp"
+        android:layout_height="44dp"
+        android:background="@drawable/small_pin"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_toLeftOf="@+id/relativeLayout"
+        android:layout_toStartOf="@+id/relativeLayout" />
+
+    <ImageView
+        android:id="@+id/big_pin"
+        android:layout_width="46dp"
+        android:layout_height="60dp"
+        android:background="@drawable/big_pin"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_toRightOf="@+id/relativeLayout"
+        android:layout_toEndOf="@+id/relativeLayout" />
+
+</RelativeLayout>
